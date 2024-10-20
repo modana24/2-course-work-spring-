@@ -1,8 +1,7 @@
 package com.example.__course_work.service;
 
+import java.util.List;
+
 public interface ExaminerService {
-    //getQuestions.
-    //
-    //Этот интерфейс должен содержать
-    // один метод, который вернет список вопросов.
+    List<Question> getQuestions(int amount);
 }
